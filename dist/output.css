@@ -2581,6 +2581,15 @@ a.bg-white{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.tabs li > a.hover\:bg-lara-blue:hover * {
+  color: #ffffff;
+}
+
+.hover\:bg-lara-blue:hover *{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .tabs li > a.hover\:bg-deep-teal:hovera {
   color: #ffffff;
 }
@@ -2596,6 +2605,17 @@ a.bg-white{
 }
 
 .hover\:bg-dark-teal:hover
+  a{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.tabs li > a.hover\:bg-lara-blue:hover
+  a {
+  color: #ffffff;
+}
+
+.hover\:bg-lara-blue:hover
   a{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -2629,6 +2649,11 @@ a.bg-white{
 .hover\:bg-light-gray:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(109 110 113 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-lara-blue:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 70 147 / var(--tw-bg-opacity));
 }
 
 .hover\:text-dark-gray:hover{

@@ -139,7 +139,7 @@ $(document).ready(function () {
 
   /* Tabs  */
   $(".tabs li a:not(:first)").addClass("inactive");
-  $(".tabs li a:first").addClass("bg-deep-teal text-white");
+  $(".tabs li a:first").addClass("bg-lara-blue text-white");
 
   $(".tabs__content>div:not(:first)").addClass("hidden");
 
@@ -148,9 +148,9 @@ $(document).ready(function () {
     if ($(this).hasClass("inactive")) {
       //this is the start of our condition
       $(".tabs li a")
-        .removeClass("bg-deep-teal text-white")
+        .removeClass("bg-lara-blue text-white")
         .addClass("inactive");
-      $(this).removeClass("inactive").addClass("bg-deep-teal text-white");
+      $(this).removeClass("inactive").addClass("bg-lara-blue text-white");
 
       $(".tabs__content>div").addClass("hidden");
       $(".tabs__content>#" + t).removeClass("hidden");
