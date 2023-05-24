@@ -586,9 +586,9 @@ a[target="_blank"]:after {
     @apply text-white;
   }
   .bg-white * {
-    @apply text-dark-gray;
+    @apply text-body;
   }
   a.bg-white {
-    @apply text-dark-gray;
+    @apply text-body;
   }
 }
