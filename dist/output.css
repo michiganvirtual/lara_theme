@@ -2146,6 +2146,11 @@ a.bg-white{
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-lara-blue{
+  --tw-border-opacity: 1;
+  border-color: rgb(28 70 147 / var(--tw-border-opacity));
+}
+
 .bg-ada-green{
   --tw-bg-opacity: 1;
   background-color: rgb(106 127 23 / var(--tw-bg-opacity));
