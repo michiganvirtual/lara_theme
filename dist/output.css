@@ -1128,7 +1128,7 @@ p,
   ul,
   ol{
   margin-bottom: 0.5rem;
-  font-family: Halva, Montserrat, Calibri;
+  font-family: Montserrat, Calibri;
   font-size: 1rem;
   line-height: 1.5rem;
   --tw-text-opacity: 1;
@@ -2327,7 +2327,7 @@ a.bg-white{
 }
 
 .font-body{
-  font-family: Halva, Montserrat, Calibri;
+  font-family: Montserrat, Calibri;
 }
 
 .text-2xl{

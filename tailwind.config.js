@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         heading: ["RNS Sanz"],
-        body: ["Halva", "Montserrat", "Calibri"],
+        body: ["Montserrat", "Calibri"],
       },
       colors: {
         "deep-teal": "#093c44",
