@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ["Montserrat", "Roboto", "Noto Sans", "Helvetica", "Calibri"],
+        heading: ["RNS Sanz"],
+        body: ["Halva", "Montserrat", "Calibri"],
       },
       colors: {
         "deep-teal": "#093c44",

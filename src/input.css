@@ -63,6 +63,52 @@
     U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+/* Halva Fonts */
+@font-face {
+  font-family: "Halva";
+  font-display: swap;
+  src: url(https://main--lara-theme.netlify.app/assets/fonts/Halva.otf);
+  font-weight: 100;
+  font-style: normal;
+}
+/* RNS Sanz Fonts */
+@font-face {
+  font-family: "RNS Sanz";
+  font-display: swap;
+  src: url(https://main--lara-theme.netlify.app/assets/fonts/RNSSanz-Light.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RNS Sanz";
+  font-display: swap;
+  src: url(https://main--lara-theme.netlify.app/assets/fonts/RNSSanz-Normal.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RNS Sanz";
+  font-display: swap;
+  src: url(https://main--lara-theme.netlify.app/assets/fonts/RNSSanz-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RNS Sanz";
+  font-display: swap;
+  src: url(https://main--lara-theme.netlify.app/assets/fonts/RNSSanz-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RNS Sanz";
+  font-display: swap;
+  src: url(https://main--lara-theme.netlify.app/assets/fonts/RNSSanz-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Gotham Fonts */
 @font-face {
   font-family: "Gotham";
   font-display: swap;
@@ -433,16 +479,16 @@ a[target="_blank"]:after {
 
 @layer base {
   h1 {
-    @apply text-3xl md:text-4xl text-black md:mt-6 mb-4;
+    @apply text-3xl md:text-4xl font-bold text-black font-heading md:mt-6 mb-4;
   }
   h2 {
-    @apply text-2xl md:text-3xl font-bold text-black mb-4;
+    @apply text-2xl md:text-3xl font-bold text-black font-heading mb-4;
   }
   h3 {
-    @apply text-xl md:text-2xl font-bold text-black mb-2;
+    @apply text-xl md:text-2xl font-bold text-black font-heading mb-2;
   }
   h4 {
-    @apply text-base md:text-lg font-bold text-black mb-2;
+    @apply text-base md:text-lg font-bold text-black font-heading mb-2;
   }
   a {
     @apply text-lara-blue underline hover:no-underline;
@@ -450,7 +496,7 @@ a[target="_blank"]:after {
   p,
   ul,
   ol {
-    @apply text-base md:text-lg text-body mb-2;
+    @apply text-base md:text-lg text-body font-body mb-2;
   }
   p:last-child {
     @apply mb-4;
